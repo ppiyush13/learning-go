@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["goimports", "golangci", "golint", "GOPATH", "rakyll"]
+  "cSpell.words": [
+    "autoremove",
+    "goimports",
+    "golangci",
+    "golint",
+    "GOPATH",
+    "GOROOT",
+    "rakyll"
+  ]
 }

@@ -1,5 +1,23 @@
 # learning-go
 
+## apt-get commands
+
+```bash
+# Add
+
+# Remove
+sudo apt-get remove --purge golang-go
+sudo apt-get remove --purge go
+sudo apt-get autoremove
+
+# Search
+sudo apt search golang-go
+
+# Repository
+sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
+sudo add-apt-repository -r ppa:ubuntu-lxc/lxc-stable
+```
+
 ## Workspace
 
 ```bash
@@ -45,4 +63,17 @@ go env # List all go env variables
 ## Install or update
 go install github.com/rakyll/hey@latest
 
+```
+
+## Secondary go
+
+```bash
+go get golang.org/dl/go.1.15.6
+go1.15.6 download
+
+go1.15.6 build # use this instead of go
+
+go1.15.6 env GOROOT # get the root directory path
+rm -rf $(go1.15.6 env GOROOT)
+rm $(go env GOPATH)/bin/go1.15.6
 ```
