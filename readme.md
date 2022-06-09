@@ -10,7 +10,7 @@ $GOPATH/go/bin # Compiled binaries
 
 ## Formatting
 
-```shell
+```properties
 ## go prefers tabs for indentation and One True Brace Style over K&S
 
 ### 1. go fmt
