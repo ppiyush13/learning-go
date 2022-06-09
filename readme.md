@@ -8,15 +8,9 @@ $GOPATH/go/src # Source code
 $GOPATH/go/bin # Compiled binaries
 ```
 
-## Commands
+## Formatting
 
-```bash
-## Build and run
-go run main.go
-go build main.go #creates main.exe
-go build -o binary main.go # creates binary.exe
-
-## Format
+```
 ## go prefers tabs for indentation and One True Brace Style over K&S
 
 ### 1. go fmt
@@ -36,6 +30,15 @@ go vet ./...
 ### 5. golangci-lint (golint + go vet)
 go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
 golangci-lint run
+```
+
+## Commands
+
+```bash
+## Build and run
+go run main.go
+go build main.go #creates main.exe
+go build -o binary main.go # creates binary.exe
 
 go env # List all go env variables
 
